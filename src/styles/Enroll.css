@@ -1,0 +1,67 @@
+.classes-heading {
+  font-size: 50px;
+  font-family:New Century Schoolbook, TeX Gyre Schola, serif;
+  color: #867464;
+  text-align: center;
+ 
+}
+.apply-container {
+
+  display: flex;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px 0;
+  font-family: serif;
+}
+
+.form-box {
+  width: 100%;
+  padding: 50px;
+  background-color: #fffaf5;
+  border-radius: 25px;
+}
+
+.apply-title {
+  font-size: 50px;
+  color: #4a4a4a;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.form-control {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  margin-bottom: 15px;
+  font-family: inherit;
+}
+
+textarea.form-control {
+  border-radius: 20px;
+}
+
+.apply-btn {
+  border-radius: 25px;
+  padding: 12px 30px;
+  font-size: 18px;
+  border: none;
+  background-color: #eee0cc;
+  color: rgb(7, 6, 6);
+}
+.apply-btn:hover {
+  background-color: #d1cac0;
+  color: black;
+  cursor: pointer;
+}
+.form-label {
+  font-family: Times, Times New Roman, serif;
+  color: #000000e9;
+  font-size: 20px;
+   text-align: left;
+}

@@ -4,11 +4,12 @@ import NavBar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
 import Classes from './pages/Classes';
-import Performance from './pages/Performance';
 import Footer from './components/Footer';
+import Enroll from './pages/Enroll';
 import { BrowserRouter as Router, Routes, Route
-  
+
 } from 'react-router-dom';
+
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
           <Route path="/Classes" element={<Classes />} />
-          <Route path="/Performance" element={<Performance />} />
+          <Route path="/Enroll" element={<Enroll />} />
         </Routes>
       <Footer />
     </Router>

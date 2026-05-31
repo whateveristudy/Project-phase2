@@ -9,6 +9,7 @@
   justify-content: space-between;
   padding: 0 40px;
   box-sizing: border-box;
+  
 }
 
 .logoContainer {
@@ -50,6 +51,7 @@
 .navLinks {
   display: flex;
   gap: 35px;
+  padding-right: 20px;
 }
 
 .navLinks a {

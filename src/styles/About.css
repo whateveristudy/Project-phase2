@@ -1,0 +1,84 @@
+.about-section {
+  padding: 70px 80px;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 3rem;
+  font-family: Georgia, serif;
+  color: #6f5a4d;
+  margin-bottom: 40px;
+}
+
+.about-logo {
+  width: 80px;
+  margin-right: 15px;
+}
+
+.students-image {
+  max-width: 900px;
+  width: 100%;
+}
+
+.about-heading {
+  font-size: 2rem;
+  color: #7a5c4d;
+  font-family: Georgia, serif;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.join-section {
+  background-color: #f4eee8;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.join-text {
+  font-size: 2rem;
+  font-family: Georgia, serif;
+  color: #5a5a5a;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-banner {
+    margin-top: 0px;
+  height: 450px;
+  background-image: url("../assests/background.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background: rgba(255, 255, 255, 0.9);
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.overlay-box h1 {
+  font-family: Georgia, serif;
+  margin-bottom: 20px;
+}
+
+.explore-link {
+  text-decoration: none;
+  color: #7a5c4d;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.explore-link:hover {
+  color: #5f473b;
+}
